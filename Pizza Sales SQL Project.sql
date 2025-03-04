@@ -1,6 +1,5 @@
 create database Pizzas;
 use Pizzas;
-use music_store;
 -- Retrieve the total number of orders placed.
 SELECT 
     COUNT(order_id) AS total_order_placed
